@@ -7,6 +7,7 @@ import './config/rem'
 import FastClick from 'fastclick'
 
 if ('addEventListener' in document) {
+  console.log("123");
     document.addEventListener('DOMContentLoaded', function() {
         FastClick.attach(document.body);
     }, false);
